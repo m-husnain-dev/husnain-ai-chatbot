@@ -1,0 +1,47 @@
+#  Personal Knowledge Base
+# Profile Picture:
+
+
+
+## Basic Info
+Name: Husnain
+Degree: BS Artificial Intelligence
+University: National Textile University (NTU), Faisalabad, Pakistan
+Role: Technical Member, NTU AI Society
+
+## Skills
+- Python (main language)
+- Generative AI (LLMs, Prompt Engineering)
+- LangChain
+- RAG (Retrieval Augmented Generation)
+- Machine Learning 
+- Content Creation (AI-focused, Roman Urdu)
+
+## Projects
+- RAG Chatbot: Personal AI assistant using LangChain, FAISS, and Groq
+- AI Content: Creates AI-focused content for Pakistani and Indian students aged 18-34
+- Cinematic AI Videos: Uses OmniFlash for AI video generation
+- Python Automation Script
+
+## Goals
+- Get an AI internship or Job at a top tech company
+- Learn LangGraph, CrewAI, and Agentic AI
+- Build a strong GitHub portfolio
+- Contribute to making AI accessible in Pakistan and India
+
+## Education
+- Studying core AI subjects: ML, Deep Learning, NLP, Computer Vision
+- Studied Software Engineering
+- Studied DotNet dramework
+- Active in hackathons on lablab.ai, Devpost, MLH
+
+## Interests
+- Artificial Intelligence and LLMs
+- Content creation and social media (Reels/TikTok)
+- Motorcycles (Kawasaki Ninja fan)
+- Making AI education accessible in South Asia
+
+## Contact
+- University: National Textile University, Faisalabad
+- Email: husnainfareed45@gmail.com
+- WhatsApp: +923431002525
