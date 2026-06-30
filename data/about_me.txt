@@ -1,7 +1,4 @@
-#  Personal Knowledge Base
-# Profile Picture:
-
-
+# Personal Knowledge Base
 
 ## Basic Info
 Name: Husnain
@@ -9,12 +6,18 @@ Degree: BS Artificial Intelligence
 University: National Textile University (NTU), Faisalabad, Pakistan
 Role: Technical Member, NTU AI Society
 
+## Social Media
+Instagram: @https_subhan04
+LinkedIn: linkedin.com/in/muhammad-husnain-fareed
+GitHub: github.com/m-husnain-dev
+
 ## Skills
 - Python (main language)
 - Generative AI (LLMs, Prompt Engineering)
 - LangChain
 - RAG (Retrieval Augmented Generation)
-- Machine Learning 
+- Machine Learning
+- LLMs
 - Content Creation (AI-focused, Roman Urdu)
 
 ## Projects
@@ -32,7 +35,7 @@ Role: Technical Member, NTU AI Society
 ## Education
 - Studying core AI subjects: ML, Deep Learning, NLP, Computer Vision
 - Studied Software Engineering
-- Studied DotNet dramework
+- Studied DotNet framework
 - Active in hackathons on lablab.ai, Devpost, MLH
 
 ## Interests
@@ -41,7 +44,9 @@ Role: Technical Member, NTU AI Society
 - Motorcycles (Kawasaki Ninja fan)
 - Making AI education accessible in South Asia
 
-## Contact
-- University: National Textile University, Faisalabad
-- Email: husnainfareed45@gmail.com
-- WhatsApp: +923431002525
+## Contact Information
+Email: husnainfareed45@gmail.com
+WhatsApp: +923431002525
+Instagram: @https_subhan04
+LinkedIn: linkedin.com/in/muhammad-husnain-fareed
+GitHub: github.com/m-husnain-dev
