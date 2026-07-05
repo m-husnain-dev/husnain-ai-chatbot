@@ -15,6 +15,13 @@ Role: Technical Member, NTU AI Society
 - LinkedIn: linkedin.com/in/muhammad-husnain-fareed
 - GitHub: github.com/m-husnain-dev
 
+## Projects
+- RAG Chatbot: Personal AI assistant using LangChain, FAISS, and Groq
+- Task Processing API: REST API in Go with a concurrent worker pool, graceful shutdown, and race-tested concurrency
+- AI Content: Creates AI-focused content for Pakistani and Indian students aged 18-34
+- Cinematic AI Videos: Uses OmniFlash for AI video generation
+- Python Automation Script
+
 ##Skills
 
 - Python (main language)
@@ -25,14 +32,6 @@ Role: Technical Member, NTU AI Society
 - Machine Learning
 - LLMs
 - Content Creation (AI-focused, Roman Urdu)
-
-##Projects
-
-- RAG Chatbot: Personal AI assistant using LangChain, FAISS, and Groq, deployed on Streamlit Cloud
-- Task Processing API: REST API in Go with a concurrent worker pool, graceful shutdown, and race-tested concurrency — github.com/m-husnain-dev/task-processing-api
-- AI Content: Creates AI-focused content for Pakistani and Indian students aged 18-34
-- Cinematic AI Videos: Uses OmniFlash for AI video generation
-- Python Automation Script
 
 ##Goals
 
