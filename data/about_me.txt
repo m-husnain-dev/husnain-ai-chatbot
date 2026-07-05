@@ -1,18 +1,24 @@
 # Personal Knowledge Base
 
-## Basic Info
+##Basic Info
+
 Name: Husnain
 Degree: BS Artificial Intelligence
 University: National Textile University (NTU), Faisalabad, Pakistan
 Role: Technical Member, NTU AI Society
 
-## Social Media
-Instagram: @https_subhan04
-LinkedIn: linkedin.com/in/muhammad-husnain-fareed
-GitHub: github.com/m-husnain-dev
+##Achievements
 
-## Skills
+- Silver Tier Winner, Google AI Seekho 2026
+- Social Media
+- Instagram: @https_subhan04
+- LinkedIn: linkedin.com/in/muhammad-husnain-fareed
+- GitHub: github.com/m-husnain-dev
+
+##Skills
+
 - Python (main language)
+- Go (Golang) — REST APIs, concurrency, goroutines
 - Generative AI (LLMs, Prompt Engineering)
 - LangChain
 - RAG (Retrieval Augmented Generation)
@@ -20,33 +26,47 @@ GitHub: github.com/m-husnain-dev
 - LLMs
 - Content Creation (AI-focused, Roman Urdu)
 
-## Projects
-- RAG Chatbot: Personal AI assistant using LangChain, FAISS, and Groq
+##Projects
+
+- RAG Chatbot: Personal AI assistant using LangChain, FAISS, and Groq, deployed on Streamlit Cloud
+- Task Processing API: REST API in Go with a concurrent worker pool, graceful shutdown, and race-tested concurrency — github.com/m-husnain-dev/task-processing-api
 - AI Content: Creates AI-focused content for Pakistani and Indian students aged 18-34
 - Cinematic AI Videos: Uses OmniFlash for AI video generation
 - Python Automation Script
 
-## Goals
-- Get an AI internship or Job at a top tech company
-- Learn LangGraph, CrewAI, and Agentic AI
-- Build a strong GitHub portfolio
-- Contribute to making AI accessible in Pakistan and India
+##Goals
 
-## Education
+- Land a Software/AI Engineer role at Google — the single north-star goal driving every skill decision
+- Master Go for backend/infra work alongside AI, since Google's infra stack runs heavily on Go
+- Go deep on agentic AI: LangGraph and CrewAI, to move beyond basic RAG into multi-step autonomous systems
+- Ship one new public GitHub project every quarter, each one demonstrably harder than the last
+- Build the largest Roman Urdu AI-education audience in Pakistan and India, so AI stops being something only English-fluent students can access
+- Education
 - Studying core AI subjects: ML, Deep Learning, NLP, Computer Vision
 - Studied Software Engineering
 - Studied DotNet framework
 - Active in hackathons on lablab.ai, Devpost, MLH
 
-## Interests
-- Artificial Intelligence and LLMs
+##Interests & Hobbies
+
+- AI Explorer — constantly testing new models, tools, and papers as they drop
+- E-Gaming
+- Sports
+- Backend engineering and systems design
 - Content creation and social media (Reels/TikTok)
 - Motorcycles (Kawasaki Ninja fan)
 - Making AI education accessible in South Asia
 
-## Contact Information
-Email: husnainfareed45@gmail.com
-WhatsApp: +923431002525
+##Contact Information
+- Email: husnainfareed45@gmail.com
+- WhatsApp: +923431002525
+- Instagram: @https_subhan04
+- LinkedIn: linkedin.com/in/muhammad-husnain-fareed
+- GitHub: github.com/m-husnain-dev
+- LinkedIn: linkedin.com/in/muhammad-husnain-fareed
+- GitHub: github.com/m-husnain-dev
+
+## Social Media
 Instagram: @https_subhan04
 LinkedIn: linkedin.com/in/muhammad-husnain-fareed
 GitHub: github.com/m-husnain-dev
