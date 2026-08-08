@@ -29,10 +29,12 @@ GitHub: github.com/m-husnain-dev
 ## Projects
 
 - RAG Chatbot: Personal AI assistant using LangChain, FAISS, and Groq
-- Task Processing API: REST API in Go with a concurrent worker pool, graceful shutdown, and race-tested concurrency
+- Admission Automation System: A complete 3-workflow n8n automation that handles the full admission funnel 
+- Clinic Appointment Automation: Two connected n8n workflows that automate patient appointment reminders and daily staff reporting 
 - AI Content: Creates AI-focused content for Pakistani and Indian students aged 18-34
 - Cinematic AI Videos: Uses OmniFlash for AI video generation
 - Python Automation Script
+- Task Processing API: REST API in Go with a concurrent worker pool, graceful shutdown, and race-tested concurrency
 
 ## Goals
 
@@ -60,6 +62,7 @@ GitHub: github.com/m-husnain-dev
 
 ## Experience
 
+- Founder NainoTech Solutions, AI Solutions, Automation, RAG, and Custom Software Development Agency
 - AI/ML Intern at FlyRank AI (ML Engineering & AI Fluency tracks)
 - Campus Ambassador at DEVSINC
 - Pie & AI Ambassador at DeepLearning.AI 
@@ -80,3 +83,7 @@ WhatsApp: +923431002525
 Instagram: @https_subhan04
 LinkedIn: linkedin.com/in/muhammad-husnain-fareed
 GitHub: github.com/m-husnain-dev
+
+## Ventures
+
+NainoTech Solutions — https://nainotech-solutions.lovable.app/
