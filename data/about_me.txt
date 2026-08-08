@@ -23,6 +23,9 @@ GitHub: github.com/m-husnain-dev
 - NLP
 - Computer Vision
 - LLMs
+- Agentic AI
+- n8n
+- AI Automation
 - Go (Golang) — REST APIs, concurrency, goroutines
 - Content Creation (AI-focused, Roman Urdu)
 
@@ -79,10 +82,11 @@ GitHub: github.com/m-husnain-dev
 ## Contact Information
 
 Email: husnainfareed45@gmail.com
+NainoTech Solutions — https://nainotech-solutions.lovable.app/
 WhatsApp: +923431002525
-Instagram: @https_subhan04
-LinkedIn: linkedin.com/in/muhammad-husnain-fareed
-GitHub: github.com/m-husnain-dev
+Instagram: https://instagram.com/https_subhan04
+LinkedIn: https://linkedin.com/in/muhammad-husnain-fareed
+GitHub: https://github.com/m-husnain-dev
 
 ## Ventures
 
