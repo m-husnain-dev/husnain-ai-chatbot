@@ -164,7 +164,7 @@ def build_vectorstore():
         else:
             continue
         docs.extend(loader.load())
-    splitter = RecursiveCharacterTextSplitter(chunk_size=1200, chunk_overlap=150)
+    splitter = RecursiveCharacterTextSplitter(chunk_size=800, chunk_overlap=100)
     chunks   = splitter.split_documents(docs)
     embeddings  = FastEmbedEmbeddings()
     vectorstore = FAISS.from_documents(chunks, embeddings)
@@ -184,7 +184,7 @@ def get_chain(_vectorstore):
         "Question: {question}\n"
         "Answer:"
     )
-    retriever = _vectorstore.as_retriever(search_kwargs={"k": 4})
+    retriever = _vectorstore.as_retriever(search_kwargs={"k": 6})
     chain = (
         {"context": retriever, "question": RunnablePassthrough()}
         | prompt | llm | StrOutputParser()
