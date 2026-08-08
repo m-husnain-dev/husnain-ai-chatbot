@@ -164,7 +164,7 @@ def build_vectorstore():
         else:
             continue
         docs.extend(loader.load())
-    splitter = RecursiveCharacterTextSplitter(chunk_size=600, chunk_overlap=100)
+    splitter = RecursiveCharacterTextSplitter(chunk_size=1200, chunk_overlap=150)
     chunks   = splitter.split_documents(docs)
     embeddings  = FastEmbedEmbeddings()
     vectorstore = FAISS.from_documents(chunks, embeddings)
