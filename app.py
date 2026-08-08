@@ -178,6 +178,7 @@ def get_chain(_vectorstore):
         "Always refer to Husnain in the third person (he, his, Husnain) — never say 'you' or 'your', "
         "since the visitor is asking ABOUT Husnain, not about themselves.\n"
         "If the context includes links, emails, or URLs relevant to the answer, always include them exactly as given.\n"
+        "When listing experience, skills, or projects, include EVERY item mentioned in the context — do not skip or omit any point.\n"
         "Answer using the context below. If the info is not available, say: This information is not available.\n"
         "Context: {context}\n"
         "Question: {question}\n"
