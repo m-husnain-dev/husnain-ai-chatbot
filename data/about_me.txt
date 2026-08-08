@@ -1,34 +1,48 @@
 # Personal Knowledge Base
+
 ## Basic Info
 Name: Husnain
 Degree: BS Artificial Intelligence
 University: National Textile University (NTU), Faisalabad, Pakistan
 Role: Technical Member, NTU AI Society
+
 ## Social Media
+
 Instagram: @https_subhan04
 LinkedIn: linkedin.com/in/muhammad-husnain-fareed
 GitHub: github.com/m-husnain-dev
+
 ## Skills
+
 - Python (main language)
 - Generative AI (LLMs, Prompt Engineering)
 - LangChain
 - RAG (Retrieval Augmented Generation)
 - Machine Learning
+- Deep Learning
+- NLP
+- Computer Vision
 - LLMs
 - Go (Golang) — REST APIs, concurrency, goroutines
 - Content Creation (AI-focused, Roman Urdu)
+
 ## Projects
+
 - RAG Chatbot: Personal AI assistant using LangChain, FAISS, and Groq
 - Task Processing API: REST API in Go with a concurrent worker pool, graceful shutdown, and race-tested concurrency
 - AI Content: Creates AI-focused content for Pakistani and Indian students aged 18-34
 - Cinematic AI Videos: Uses OmniFlash for AI video generation
 - Python Automation Script
+
 ## Goals
+
 - Get an AI internship or Job at a top tech company
 - Learn LangGraph, CrewAI, and Agentic AI
 - Build a strong GitHub portfolio
-- Contribute to making AI accessible in Pakistan and India
+- Contribute to making AI accessible South Asia
+
 ## Interests & Hobbies
+
 - AI Explorer — constantly testing new models, tools, and papers as they drop
 - E-Gaming
 - Sports
@@ -36,17 +50,31 @@ GitHub: github.com/m-husnain-dev
 - Content creation and social media (Reels/TikTok)
 - Motorcycles (Kawasaki Ninja fan)
 - Making AI education accessible in South Asia
+
 ## Education
+
 - Studying core AI subjects: ML, Deep Learning, NLP, Computer Vision
 - Studied Software Engineering
 - Studied DotNet framework
 - Active in hackathons on lablab.ai, Devpost, MLH
+
+## Experience
+
+- AI/ML Intern at FlyRank AI (ML Engineering & AI Fluency tracks)
+- Campus Ambassador at DEVSINC
+- Pie & AI Ambassador at DeepLearning.AI 
+- Technical Member at NTU AI Society
+
 ## Interests
+
 - Artificial Intelligence and LLMs
+- AI Automation and Agents
 - Content creation and social media (Reels/TikTok)
 - Motorcycles (Kawasaki Ninja fan)
 - Making AI education accessible in South Asia
+
 ## Contact Information
+
 Email: husnainfareed45@gmail.com
 WhatsApp: +923431002525
 Instagram: @https_subhan04
