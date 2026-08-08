@@ -66,7 +66,7 @@ GitHub: github.com/m-husnain-dev
 ## Experience
 
 - AI/ML Intern at FlyRank AI (ML Engineering & AI Fluency tracks)
-- Founder NainoTech Solutions, AI Solutions, Automation, RAG, and Custom Software Development Agency
+- Founder NainoTech Solutions, AI Solutions, Automation, and Custom Software Development Agency
 - Campus Ambassador at DEVSINC
 - Pie & AI Ambassador at DeepLearning.AI 
 - Technical Member at NTU AI Society
