@@ -1,6 +1,7 @@
 # Personal Knowledge Base
 
 ## Basic Info
+
 Name: Husnain
 Degree: BS Artificial Intelligence
 University: National Textile University (NTU), Faisalabad, Pakistan
@@ -38,6 +39,10 @@ GitHub: github.com/m-husnain-dev
 - Cinematic AI Videos: Uses OmniFlash for AI video generation
 - Python Automation Script
 - Task Processing API: REST API in Go with a concurrent worker pool, graceful shutdown, and race-tested concurrency
+
+## About NainoTech Solutions
+
+NainoTech Solutions is Husnain's own AI agency. He is the Founder of NainoTech Solutions. The agency offers AI automation, RAG-based applications, and custom software development services. NainoTech Solutions website: https://nainotech-solutions.lovable.app/
 
 ## Goals
 
