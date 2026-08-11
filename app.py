@@ -227,31 +227,30 @@ if st.session_state.quick_input:
     q = st.session_state.quick_input
     st.session_state.quick_input = ""
     st.session_state.messages.append({"role": "user", "content": q})
-    with st.chat_message("user", avatar=AVATARS["user"]):
-        st.write(q)
-    with st.chat_message("assistant", avatar=AVATARS["assistant"]):
-        with st.spinner("Thinking..."):
-            response = chain.invoke(q)
-        st.write(response)
-        st.markdown("""
+        with st.chat_message("user", avatar=AVATARS["user"]):
+            st.write(q)
+        with st.chat_message("assistant", avatar=AVATARS["assistant"]):
+            with st.spinner("Thinking..."):
+                response = chain.invoke(q)
+            st.write(response)
+            st.markdown("""
             <script>
                 window.scrollTo(0, document.body.scrollHeight);
             </script>
             """, unsafe_allow_html=True)
-    st.session_state.messages.append({"role": "assistant", "content": response})
+        st.session_state.messages.append({"role": "assistant", "content": response})
 
-if user_input := st.chat_input("Ask me anything..."):
-    st.session_state.messages.append({"role": "user", "content": user_input})
-    st.write(response)
-    st.markdown("""
+    if user_input := st.chat_input("Ask me anything..."):
+        st.session_state.messages.append({"role": "user", "content": user_input})
+        with st.chat_message("user", avatar=AVATARS["user"]):
+            st.write(user_input)
+        with st.chat_message("assistant", avatar=AVATARS["assistant"]):
+            with st.spinner("Thinking..."):
+                response = chain.invoke(user_input)
+            st.write(response)
+            st.markdown("""
             <script>
                 window.scrollTo(0, document.body.scrollHeight);
             </script>
             """, unsafe_allow_html=True)
-    with st.chat_message("user", avatar=AVATARS["user"]):
-        st.write(user_input)
-    with st.chat_message("assistant", avatar=AVATARS["assistant"]):
-        with st.spinner("Thinking..."):
-            response = chain.invoke(user_input)
-        st.write(response)
-    st.session_state.messages.append({"role": "assistant", "content": response})
+        st.session_state.messages.append({"role": "assistant", "content": response})
