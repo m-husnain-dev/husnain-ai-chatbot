@@ -103,9 +103,6 @@ div[data-testid="stChatMessage"] strong { color: #222 !important; font-family: '
 div[data-testid="stChatMessageContent"] { background: transparent !important; }
 
 /* Chat input — polished floating pill */
-[data-testid="stBottom"], [data-testid="stBottomBlockContainer"] {
-    background: linear-gradient(135deg, #ffe8f5, #fff5e8, #e8fff0) !important;
-}
 div[data-testid="stChatInput"] {
     background: transparent !important;
     padding: 12px 0 6px !important;
@@ -130,13 +127,6 @@ div[data-testid="stChatInput"] button {
     box-shadow: 0 6px 24px rgba(0,0,0,0.08) !important;
 }
 .stChatInput textarea::placeholder { color: #888 !important; opacity: 1 !important; }
-div[data-testid="stChatInput"] button::after {
-    content: "Send";
-    font-size: 12px;
-    font-weight: 600;
-    color: #333;
-    margin-left: 4px;
-}
 </style>
 """, unsafe_allow_html=True)
 
