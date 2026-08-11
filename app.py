@@ -91,19 +91,6 @@ div[data-testid="stHorizontalBlock"] button:hover {
     background: rgba(255,255,255,0.95) !important;
 }
 
-div[data-testid="stChatInput"] {
-    background: transparent !important;
-    padding: 12px 0 !important;
-}
-.stChatInput textarea {
-    background: rgba(255,255,255,0.95) !important;
-    border: 1.5px solid rgba(0,0,0,0.12) !important;
-    border-radius: 24px !important;
-    padding: 14px 20px !important;
-    font-size: 15px !important;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
-}
-
 /* Chat messages */
 div[data-testid="stChatMessage"] { background: rgba(255,255,255,0.95) !important; border: 1.5px solid rgba(0,0,0,0.07) !important; border-radius: 18px !important; box-shadow: 0 4px 20px rgba(0,0,0,0.06) !important; margin-bottom: 10px !important; }
 div[data-testid="stChatMessage"] p,
@@ -114,10 +101,23 @@ div[data-testid="stChatMessage"] ol,
 div[data-testid="stChatMessage"] ul,
 div[data-testid="stChatMessage"] strong { color: #222 !important; font-family: 'Inter', sans-serif !important; opacity: 1 !important; }
 div[data-testid="stChatMessageContent"] { background: transparent !important; }
-.stChatInput textarea { background: rgba(255,255,255,0.95) !important; border: 1.5px solid rgba(0,0,0,0.12) !important; border-radius: 56px !important; font-family: 'Inter', sans-serif !important; color: #1a1a1a !important; }
+
+/* Chat input — polished floating pill */
+div[data-testid="stChatInput"] {
+    background: transparent !important;
+    padding: 12px 0 6px !important;
+}
+.stChatInput textarea {
+    background: rgba(255,255,255,0.95) !important;
+    border: 1.5px solid rgba(0,0,0,0.12) !important;
+    border-radius: 28px !important;
+    padding: 14px 20px !important;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 15px !important;
+    color: #1a1a1a !important;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.08) !important;
+}
 .stChatInput textarea::placeholder { color: #888 !important; opacity: 1 !important; }
-.stChatInput { background: transparent !important; }
-div[data-testid="stChatInput"] { background: transparent !important; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -227,30 +227,22 @@ if st.session_state.quick_input:
     q = st.session_state.quick_input
     st.session_state.quick_input = ""
     st.session_state.messages.append({"role": "user", "content": q})
-        with st.chat_message("user", avatar=AVATARS["user"]):
-            st.write(q)
-        with st.chat_message("assistant", avatar=AVATARS["assistant"]):
-            with st.spinner("Thinking..."):
-                response = chain.invoke(q)
-            st.write(response)
-            st.markdown("""
-            <script>
-                window.scrollTo(0, document.body.scrollHeight);
-            </script>
-            """, unsafe_allow_html=True)
-        st.session_state.messages.append({"role": "assistant", "content": response})
+    with st.chat_message("user", avatar=AVATARS["user"]):
+        st.write(q)
+    with st.chat_message("assistant", avatar=AVATARS["assistant"]):
+        with st.spinner("Thinking..."):
+            response = chain.invoke(q)
+        st.write(response)
+        st.markdown("<script>window.scrollTo(0, document.body.scrollHeight);</script>", unsafe_allow_html=True)
+    st.session_state.messages.append({"role": "assistant", "content": response})
 
-    if user_input := st.chat_input("Ask me anything..."):
-        st.session_state.messages.append({"role": "user", "content": user_input})
-        with st.chat_message("user", avatar=AVATARS["user"]):
-            st.write(user_input)
-        with st.chat_message("assistant", avatar=AVATARS["assistant"]):
-            with st.spinner("Thinking..."):
-                response = chain.invoke(user_input)
-            st.write(response)
-            st.markdown("""
-            <script>
-                window.scrollTo(0, document.body.scrollHeight);
-            </script>
-            """, unsafe_allow_html=True)
-        st.session_state.messages.append({"role": "assistant", "content": response})
+if user_input := st.chat_input("Ask me anything..."):
+    st.session_state.messages.append({"role": "user", "content": user_input})
+    with st.chat_message("user", avatar=AVATARS["user"]):
+        st.write(user_input)
+    with st.chat_message("assistant", avatar=AVATARS["assistant"]):
+        with st.spinner("Thinking..."):
+            response = chain.invoke(user_input)
+        st.write(response)
+        st.markdown("<script>window.scrollTo(0, document.body.scrollHeight);</script>", unsafe_allow_html=True)
+    st.session_state.messages.append({"role": "assistant", "content": response})
