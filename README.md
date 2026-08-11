@@ -6,7 +6,8 @@ A personal AI chatbot built from scratch using **Retrieval Augmented Generation 
 ---
 
 ## 🚀 Live Demo
-
+https://husnain-ai-chatbot.streamlit.app/
+or
 > Run locally — see setup below
 
 ---
