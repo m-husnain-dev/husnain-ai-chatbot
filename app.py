@@ -233,7 +233,7 @@ if st.session_state.quick_input:
         with st.spinner("Thinking..."):
             response = chain.invoke(q)
         st.write(response)
-            st.markdown("""
+        st.markdown("""
             <script>
                 window.scrollTo(0, document.body.scrollHeight);
             </script>
@@ -243,7 +243,7 @@ if st.session_state.quick_input:
 if user_input := st.chat_input("Ask me anything..."):
     st.session_state.messages.append({"role": "user", "content": user_input})
     st.write(response)
-         st.markdown("""
+    st.markdown("""
             <script>
                 window.scrollTo(0, document.body.scrollHeight);
             </script>
