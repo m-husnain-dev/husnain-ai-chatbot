@@ -108,8 +108,10 @@ div[data-testid="stChatInput"] {
     background: transparent !important;
     padding: 12px 0 6px !important;
     align-items: flex-start !important;
+    flex-direction: column
 }
 div[data-testid="stChatInput"] button {
+    align-self: center
     margin-top: 8px !important;
 }
 div[data-testid="stChatInput"] button {
