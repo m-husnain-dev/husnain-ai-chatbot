@@ -116,6 +116,9 @@ div[data-testid="stChatMessageContent"] { background: transparent !important; }
     font-size: 15px !important;
     color: #1a1a1a !important;
     box-shadow: 0 6px 24px rgba(0,0,0,0.08) !important;
+    min-height: 48px !important;
+    max-height: 48px !important;
+    resize: none !important;
 }
 .stChatInput textarea::placeholder { color: #888 !important; opacity: 1 !important; }
 </style>
