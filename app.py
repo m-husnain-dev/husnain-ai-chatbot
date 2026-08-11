@@ -91,6 +91,19 @@ div[data-testid="stHorizontalBlock"] button:hover {
     background: rgba(255,255,255,0.95) !important;
 }
 
+div[data-testid="stChatInput"] {
+    background: transparent !important;
+    padding: 12px 0 !important;
+}
+.stChatInput textarea {
+    background: rgba(255,255,255,0.95) !important;
+    border: 1.5px solid rgba(0,0,0,0.12) !important;
+    border-radius: 24px !important;
+    padding: 14px 20px !important;
+    font-size: 15px !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+}
+
 /* Chat messages */
 div[data-testid="stChatMessage"] { background: rgba(255,255,255,0.95) !important; border: 1.5px solid rgba(0,0,0,0.07) !important; border-radius: 18px !important; box-shadow: 0 4px 20px rgba(0,0,0,0.06) !important; margin-bottom: 10px !important; }
 div[data-testid="stChatMessage"] p,
@@ -220,10 +233,21 @@ if st.session_state.quick_input:
         with st.spinner("Thinking..."):
             response = chain.invoke(q)
         st.write(response)
+            st.markdown("""
+            <script>
+                window.scrollTo(0, document.body.scrollHeight);
+            </script>
+            """, unsafe_allow_html=True)
     st.session_state.messages.append({"role": "assistant", "content": response})
 
 if user_input := st.chat_input("Ask me anything..."):
     st.session_state.messages.append({"role": "user", "content": user_input})
+    st.write(response)
+            st.markdown("""
+            <script>
+                window.scrollTo(0, document.body.scrollHeight);
+            </script>
+            """, unsafe_allow_html=True)
     with st.chat_message("user", avatar=AVATARS["user"]):
         st.write(user_input)
     with st.chat_message("assistant", avatar=AVATARS["assistant"]):
