@@ -102,22 +102,11 @@ div[data-testid="stChatMessage"] ul,
 div[data-testid="stChatMessage"] strong { color: #222 !important; font-family: 'Inter', sans-serif !important; opacity: 1 !important; }
 div[data-testid="stChatMessageContent"] { background: transparent !important; }
 
-/* Chat input — polished floating pill */
-
-div[data-testid="stChatInput"] {
-    background: transparent !important;
-    padding: 12px 0 6px !important;
-    align-items: flex-start !important;
-    flex-direction: column
-}
-div[data-testid="stChatInput"] button {
-    align-self: center
-    margin-top: 8px !important;
-}
-div[data-testid="stChatInput"] button {
-    align-self: center !important;
-    margin-bottom: 0 !important;
-}
+/* Chat input */
+    div[data-testid="stChatInput"] {
+        background: transparent !important;
+        padding: 12px 0 6px !important;
+    }
 .stChatInput textarea {
     background: rgba(255,255,255,0.95) !important;
     border: 1.5px solid rgba(0,0,0,0.12) !important;
