@@ -106,10 +106,9 @@ div[data-testid="stChatMessageContent"] { background: transparent !important; }
 div[data-testid="stChatInput"] {
     background: transparent !important;
     padding: 12px 0 6px !important;
-    flex-direction: column !important;
+    align-items: flex-start !important;
 }
 div[data-testid="stChatInput"] button {
-    align-self: center !important;
     margin-top: 8px !important;
 }
 div[data-testid="stChatInput"] button {
